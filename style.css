@@ -17,7 +17,7 @@ body{
     padding: 10px;
     word-spacing: 20px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
+    font-size: 140%;
     background: #010101;
     
 }
@@ -25,7 +25,7 @@ body{
 .languages
 {
   color: white;
-  font-size: 20px;
+  font-size: 60%;
 
 }
 
@@ -40,8 +40,8 @@ body{
 }
 
 h1{
-    font-size: 45px;
-    margin-left: 120px;
+    font-size: 190%;
+    
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
@@ -51,15 +51,15 @@ h1{
 /* text boxes */
 .content{
 
-  margin-left: 100px;
-  padding: 20px;
+  
+  
   font-weight: 100;
   font-style: normal;
-  font-size: 25px;
+  font-size: 120%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
-  width: 75%;
+  width: 90%;
 
 }
 
@@ -76,8 +76,9 @@ footer{
 ul{
     margin: 0;
     padding: 0; 
-    list-style-type: none;
+    
 }
+
 
 a {
       color: white;
@@ -114,11 +115,11 @@ a:after {
 
     background-color: white;
     color: grey;
-    margin-left: 120px;
-    font-size: 17px;
+    margin-top: 20px;
+    font-size: 110%;
     cursor: pointer;
 
-    width: 400px;
+    width: 40%;
     height: 50px;
 
     border: 5px;
