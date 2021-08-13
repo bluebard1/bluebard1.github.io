@@ -2,14 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
-
-body{
-    
-    width: 100%;
-    margin: auto;
-
-}
-
 .menu
 {
     margin: auto;
@@ -17,9 +9,28 @@ body{
     padding: 10px;
     word-spacing: 20px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 140%;
-    background: #010101;
+    font-size: 190%;
+    background: #233E8B;
     
+}
+
+
+body{
+    
+    width: 100%;
+    margin: auto;
+    
+}
+
+footer{
+  background-color:white;
+  padding: 2%;
+  text-align: center;
+  font-size: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+  sans-serif;
+  
 }
 
 .languages
@@ -35,12 +46,12 @@ body{
     width: 100%;
     padding: 50px;
     text-align: left;
-    background: #E0E4D7;
+    background: white;
     
 }
 
 h1{
-    font-size: 190%;
+    font-size: 290%;
     
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
@@ -55,7 +66,7 @@ h1{
   
   font-weight: 100;
   font-style: normal;
-  font-size: 120%;
+  font-size: 200%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
@@ -63,14 +74,7 @@ h1{
 
 }
 
-footer{
-    padding: 2%;
-    text-align: center;
-    font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-    sans-serif;
-}
+
 
 /*hyperlinks style */
 ul{
@@ -97,7 +101,7 @@ a {
 a:after {
     display: inline;
     border-radius: 1em;
-    border-top: 0.1em solid #77d9ed;
+    border-top: 0.1em solid #30eaff;
     content: "";
     position: absolute;
       right: 100%;
@@ -116,15 +120,15 @@ a:after {
     background-color: white;
     color: grey;
     margin-top: 20px;
-    font-size: 110%;
+    font-size: 180%;
     cursor: pointer;
 
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 
-    border: 5px;
+    border-color: #9ea5a2;
+    
     border-radius: 5%;
-    border-color: #04AA6D;
     
     font-family: 'Open Sans', sans-serif;
      
@@ -146,14 +150,18 @@ a:after {
     display:flex;
     max-width: 33.33%;
     padding: 5px;
+    
   }
   
   .row {
+    background:white;
     display: table;
+    
   }
 
 
 .colrow{
+  background: white;
   display: -ms-flexbox;
   display: flex; 
   -ms-flex-wrap: wrap;
@@ -201,7 +209,7 @@ figcaption{
     top: 1%;
     left: 0;
     right: 0;
-    font-size: 80%;
+    font-size: 190%;
     font-weight: 100;
     background: rgba(0,0,0,0.5);
     color: white;
