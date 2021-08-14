@@ -205,6 +205,24 @@ a:after {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .h1 {
+    font-size: 190%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    font-size: 120%;
+  }
+}
+
 /*image text style*/
 figcaption{      
 
