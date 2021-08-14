@@ -199,6 +199,12 @@ a:after {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 120%;
+  }
+}
+
 /*image text style*/
 figcaption{      
 
