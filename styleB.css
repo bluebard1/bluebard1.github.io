@@ -3,26 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Niramit:wght@700&display=swap');
 
 html{
-  min-height: 100%;
   background-color: rgba(195, 237, 248, 0.931);
-  width: 100%;
 }
 
 body{
   margin: auto;
+  overflow-x: hidden;
 }
 
 .menu
 {
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 70px;
+  padding: 50px;
   text-align: left;
   background: white;
-    
 }
 
 .options
@@ -32,7 +27,7 @@ body{
 }
 
 .name{
-    font-size: 160%;
+    font-size: 30px;
     font-family: 'Niramit', sans-serif;
 }
 
@@ -60,10 +55,9 @@ body{
   
 }
 .outer-box{
-  margin:auto;
+  margin: 0 auto;
   padding: 50px;
   width: 600px;
-  
   text-align: left;
 }
 
@@ -86,12 +80,10 @@ body{
 }
 
 footer{
-
   padding: 1%;
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  
 }
 
 /*generic elements*/
@@ -192,3 +184,26 @@ input[type=submit]:hover {
 }
 
 
+@media screen and (max-width: 720px) {
+  .menu{
+    width: 100%;
+  }
+
+  .options{
+    font-size: 15px;
+  }
+
+  .outer-box{
+    width: 400px;
+  }
+
+  .inner-box{
+    width: 300px;
+  }
+
+  .sub-box{
+    margin-left: 150px;
+    width: 150px;
+  }
+  
+}
