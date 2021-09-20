@@ -158,6 +158,16 @@ a:hover:after {
   border-radius: 50%;
 }
 
+.project{
+
+ 
+  padding-top: 20px;
+  margin-left: 170px;
+  width: 60%;
+  height: 60%;
+
+}
+
 /* contact form */
 input[type=text], select, textarea {
   width: 100%;
@@ -204,6 +214,14 @@ input[type=submit]:hover {
   .sub-box{
     margin-left: 150px;
     width: 150px;
+  }
+
+  iframe{
+    width: 300px;
+  }
+
+  .project{
+    margin-left: 140px;
   }
   
 }
