@@ -1,3 +1,5 @@
-# Hakim Tayari
+Hello!
 
-Just learning stuff...
+This is just my personal website.
+
+:)
