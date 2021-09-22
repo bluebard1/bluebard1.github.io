@@ -147,6 +147,9 @@ a:hover:after {
     color: white;
 }  
 
+.dwnldbtn{
+  visibility: hidden;
+}
 
 /*image styles*/
 
