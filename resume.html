@@ -37,7 +37,7 @@
             <span class="sub-section">Experience</span>
             
 	    <a href="resume_en.pdf" download="resume_en">
-            <button class="btn">Download CV</button></a>
+            <button class="btn" id="downloadbtn">Download CV</button></a>
 		
             <div class="inner-box">
 
@@ -173,13 +173,17 @@
             
             var menu = document.getElementById("menu");
             var stick = menu.offsetTop;
+	    var btb = document.getElementById("downloadbtn");
+
             
             function myFunction() {
               if (window.pageYOffset > stick) {
                 menu.classList.add("sticky");
+		btb.classList.add("dwnldbtn");
               } else {
                 menu.classList.remove("sticky");
-              }
+                btb.classList.remove("dwnldbtn");
+	      }
             }
             </script>
 
