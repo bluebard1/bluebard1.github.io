@@ -18,6 +18,9 @@ body{
   padding: 50px;
   text-align: left;
   background: white;
+
+  border-bottom: 1px solid;
+  box-shadow: 15px   #888888;
 }
 
 .options
@@ -68,7 +71,7 @@ body{
   margin:auto;
   width: 500px;
   border: 1px solid;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 5px 5px rgb(133, 131, 131);
   font-family:'Open Sans', sans-serif; ;
   
 }
@@ -191,6 +194,16 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .outer-box{
+  padding-top: 230px;
 }
 
 
