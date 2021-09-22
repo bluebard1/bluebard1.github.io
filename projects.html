@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <div class ="menu" >
+        <div class ="menu" id="menu">
 
             <div class="options">
 
@@ -133,7 +133,22 @@
         
         </div>
     
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var menu = document.getElementById("menu");
+            var stick = menu.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > stick) {
+                menu.classList.add("sticky");
+              } else {
+                menu.classList.remove("sticky");
+              }
+            }
+            </script>
 
+    
         <footer>
             DE | EN | FR
         </footer>
