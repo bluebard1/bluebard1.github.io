@@ -1,0 +1,218 @@
+/* general */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+    color: white;
+}
+
+.wrapper_container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 600px) {
+    div.wrapper_container {
+      flex-direction: column;
+    }
+
+    div.left_container, div.right_container{
+        width: 100%;
+    }
+
+    div.inner_container, div.tabs button{
+        font-size: 35px;
+        width: 100%;   
+    }
+
+    div.left_container{
+        font-size: 35px;
+    }
+
+    span.surname{
+        font-size: 50px;
+    }
+
+    div.info_container, div.languages{
+        line-height: 40px;
+    }
+
+    button.download_resume{
+        display:none;
+    }
+
+  }
+
+/*RIGHT CONTAINER */
+.right_container{
+    width: 100%;
+}
+
+.container_header{
+    background: #212428; 
+    font-weight: 600;
+    padding: 10px;
+}
+
+.inner_container{
+
+    margin-top: 20px;
+    border: 4px solid #212428; 
+}
+
+
+.container_content{
+    padding: 10px;
+    color: lightgray;
+}
+
+.text_container{
+    padding: 10px;
+}
+
+.languages{
+    padding: 5px;
+}
+
+.skills{
+    padding: 5px;
+}
+
+.video_container video{
+    width: 100%;    
+}
+
+.year{
+    color: wheat;
+    font-weight: 100;
+}
+
+.tab_container{
+    /* just for JS*/
+    display: none;
+}
+
+.tabs{
+    min-height: 30px;
+    margin-bottom: 30px;
+}
+
+.tabs button{
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    cursor: pointer;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    font-size: 18px;
+    width: 33%;
+    min-width: 30px;
+    background: black;
+    color: #0dcaf0;
+    font-weight: 600;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid #606060;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.tabs button:hover{
+    border: 0.5px solid #606060;
+    color: #dc3545;    
+}
+
+.tabs button:focus {     
+    background-color:#212428; 
+    color: lightgray;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px solid #606060;
+}
+
+
+
+.tab_link{
+
+}
+
+#projects{
+    display:contents;
+}
+
+#resume{
+
+}
+
+#education{
+
+}
+
+
+/* LEFT CONTAINER */
+.left_container{
+    min-height: 300px;
+    width: 30%;
+    margin-right: 20px;
+    /*border: 1px solid white;*/
+}
+
+
+.contact_container ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+
+.info_container{
+    line-height: 22px;
+}
+
+.img_container{
+    padding-bottom: 15px;
+}
+
+.person_img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.surname{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.download_resume{
+    width: 50%;
+    font-family: 'Ubuntu', 'sans-serif';
+    text-align: center;
+    padding: 5px;
+    margin: 5%;
+    margin-left: 25%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: black;
+    font-weight: 600;
+    border: 0.5px solid #606060;
+
+}
+
+
+/* BOTTOM */
+.bottom_info{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
