@@ -9,7 +9,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
 
@@ -20,25 +20,24 @@ body{
       flex-direction: column;
     }
 
-    div.left_container, div.right_container{
-        width: 100%;
+    div.left_container, div.right_container, div.wrapper_container, div.inner_container, div.tabs button{
+        width: 95%;
     }
 
-    div.inner_container, div.tabs button{
-        font-size: 35px;
-        width: 100%;   
+    div.inner_container, div.tabs button, div.left_container{
+        font-size: 20px;
     }
 
-    div.left_container{
-        font-size: 35px;
+    div.tabs{
+        flex-direction: column;
     }
 
     span.surname{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     div.info_container, div.languages{
-        line-height: 40px;
+        line-height: 30px;
     }
 
     button.download_resume{
@@ -55,30 +54,30 @@ body{
 .container_header{
     background: #212428; 
     font-weight: 600;
-    padding: 10px;
+    padding: 15px;
+    font-size: 18px;
 }
 
 .inner_container{
-
+    border-radius: 10px;
     margin-top: 20px;
-    border: 4px solid #212428; 
+    margin-bottom: 20px;
+    border: 5px solid #212428; 
 }
-
 
 .container_content{
     padding: 10px;
     color: lightgray;
+    
 }
 
 .text_container{
+    color: lightgray;
+    font-size: 18px;
     padding: 10px;
 }
 
-.languages{
-    padding: 5px;
-}
-
-.skills{
+.languages, .skills{
     padding: 5px;
 }
 
@@ -97,6 +96,7 @@ body{
 }
 
 .tabs{
+    display: flex;
     min-height: 30px;
     margin-bottom: 30px;
 }
@@ -106,10 +106,9 @@ body{
     float: left;
     cursor: pointer;
     padding: 10px 5px 10px 5px;
-    margin-bottom: 10px;
     transition: 0.3s;
     font-size: 18px;
-    width: 33%;
+    width: 33%; /* change to accomodate more tabs*/
     min-width: 30px;
     background: black;
     color: #0dcaf0;
@@ -178,6 +177,7 @@ a{
 
 .info_container{
     line-height: 22px;
+    font-size: 18px;
 }
 
 .img_container{
@@ -213,6 +213,6 @@ a{
 /* BOTTOM */
 .bottom_info{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px;
 }
