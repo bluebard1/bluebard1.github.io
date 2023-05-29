@@ -1,78 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5857267060.js" crossorigin="anonymous"></script>    <meta charset="UTF-8">
+    <!-- Custom -->
+    <link href="style.css" rel="stylesheet"/>
+    <title>Hakim Tayari</title>
+    <link rel="icon" href="media/h-solid.svg">
+</head>
 
-    <head>
-        <meta charset="urf-8">
-        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+<body>
+    <!-- GENERAL -->
+    <div class="wrapper_container">
 
-        <link rel="stylesheet" href="styleB.css">
-        <title>Hakim Tayari | Contact </title> 
+        <!-- LEFT -->
+        <div class="left_container">
+            <div class="img_container">
+                <img class="person_img" src="media/me.jpg"/>
+            </div>
 
-    </head>
+            <span class="surname">Hakim Tayari</span>
+            
+            <button class="toggle-btn"><i class="fa-solid fa-circle-half-stroke"></i></button>       
 
-    <body>
-        <div class ="menu" >
+            <div class="info_container">
 
-            <div class="options">
+                <p>I am a grad student at the technical university Vienna 
+                    studying embedded systems design. I tutor middle and 
+                    high school students, and do freelance software development 
+                    and quality assurance.</p>
+                <p></p> 
+            </div>
 
-                <span class="square"></span>
-                <span class="name">Hakim Tayari </span>  /Electrical Engineer
-                
-                <div style="word-spacing: 10px;">
-                <a href="https://hakimtayari.github.io/index.html">ABOUT</a>
-                <a href="https://hakimtayari.github.io/resume.html">RESUME</a>
-                <a href="https://hakimtayari.github.io/projects.html">PROJECTS</a>
-                <a href="https://hakimtayari.github.io/contact.html">CONTACT</a>
+            <div class="contact_container">
+
+                <ul>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Wien,+%C3%96sterreich/@48.2207698,16.2976599,12z/data=!3m1!4b1!4m6!3m5!1s0x476d079e5136ca9f:0xfdc2e58a51a25b46!8m2!3d48.2081743!4d16.3738189!16zL20vMGZocDk"><p><i class="fa-solid fa-location-dot"></i> &#160;Vienna</p></a> 
+                    <a target="_blank" rel="noopener noreferrer" href=""><p><i class="fa-brands fa-github"></i> &#160;GitHub</p></a>
+                    <a target="_blank" rel="noopener noreferrer" href=""><p><i class="fa-sharp fa-solid fa-envelope"></i> &#160;Contact</p></a>     
+                    <a target="_blank" rel="noopener noreferrer" href=""><p><i class="fa-brands fa-linkedin"></i> &#160;LinkedIn</p></a> 
+                    <a target="_blank" rel="noopener noreferrer" href=""><p><i class="fa-brands fa-twitter"></i> Twitter</p></a>     
+                </ul>
+            </div>
+
+            <div class="inner_container">
+                <div class="container_header">
+                    Coding
                 </div>
+
+                <div class="container_content">
+                    <div class="text_container skills">
+                        C/C++, Java, Python, SQL<br>
+                        Confluence, Jira, Git<br>
+                    </div>
+                </div>
+
+
             </div>
-        
-        </div>
 
-        
-        
-        <div class="outer-box">
+            <div class="inner_container">
+                <div class="container_header">
+                    Electrical & Mechanical
+                </div>
 
-            
-            
-            <span class="sub-section">Contact Form</span>
-            
-            <div class="inner-box">
+                <div class="container_content">
+                    <div class="text_container skills">
+                        Soldering, Wiring <br>
+                        3D Printing
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="inner_container">
+                <div class="container_header">
+                    Languages
+                </div>
+
+                <div class="container_content languages">
+                    <div class="text_container">
+                        German, English, French, Italian
+                    </div>
+                </div>
                 
-                <p>This contact form was made by Formspree.</p> 
-
-                <form
-                    action="https://formspree.io/f/xknkyvnk"
-                    method="POST"
-                >
-                    <label>
-                    Your E-Mail:    
-                    <p><input type="email" name="_replyto"></p>
-                    </label>
-                    <br>
-                    <label>Your message:
-                        
-                    <textarea name="message"></textarea>
-  
-                    </label>
-  
-                <!-- your other form fields go here -->
-  
-                <button class="btn" type="submit">Send</button>
-
-                </form>
-
-
-                <p>Hit 'Send' and I'll be in touch in no time!</p>
             </div>
 
-            
-        
+            <button class="download_resume"><a href="resume.pdf" download="w3logo">Resume <i class="fa-solid fa-download"></i></a></button>
         </div>
-    
 
-        <footer>
-            DE | EN | FR
-        </footer>
+        <!-- RIGHT -->
+        <div class="right_container">
+            
+            <div class="inner_container">
+                
+                <div class="container_header">
+                    <button class="back_button" onclick="history.back()"><i class="fa-solid fa-arrow-left">  </i> </button> Conact Form
+                </div>
+                
+                <div class="container_content">
+                
+                            
+
+                            <div class="text_container">
+                            wip
+                            <form action="https://formspree.io/f/xknkyvnk" method="POST">
+                                
+                                   
+                                <p><input type="email" name="_replyto"></p>
+                              
+                                <br>
+                              
+
+                                <textarea name="message"></textarea>
+                                
+                                <p></p>
+                                
+                            
+                            
+                            <button class="submit_button" type="submit">Send</button>
+                            
+                            </form>
+                        
+
+                            </div>
+
+                </div>
         
-    </body>
+            </div>
+
+            <div class="bottom_info">
+                This contact form was made by <a target="_blank" rel="noopener noreferrer" href="https://formspree.io/">Formspree</a>.
+                This page contains links to external websites without taking responsibility<br>
+                for the accuracy, legality or content of the external site or for that of subsequent links.
+                <br>URLs may be subject to change, no warranty for actuality.
+            </div>
+
+        </div>
+
+        
+    </div>
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn');
+        const body = document.querySelector('body');
+    
+        toggleBtn.addEventListener(
+            'click', () => {body.classList.toggle('light-mode');}
+        );
+    </script>   
+</body>
 </html>

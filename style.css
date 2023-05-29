@@ -46,6 +46,82 @@ body{
 
   }
 
+/* LIGHT MODE */
+.light-mode {
+    background-color: #f7f7f7;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.light-mode .container_header {
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.light-mode .container_content{
+    background-color: #fff;
+    color: #000000;
+}
+
+.light-mode .inner_container{
+    background-color: #fff;
+    border: 5px solid #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .text_container{
+    color: #000000;
+}
+
+.light-mode .tabs button{
+    background: #fff;
+    color:#0082fc;
+    border-bottom: 0.5px solid #606060;
+}
+
+.light-mode .tabs button:focus {     
+    background-color: #dbdbdb;
+    color: rgb(52, 52, 52);
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px solid #606060;
+}
+
+.light-mode a{
+    color:#0082fc;
+}
+
+.light-mode .year{
+    color:rgb(52, 52, 52);
+}
+
+
+.light-mode button {
+    background-color:#fff;
+    color: #333;
+}
+
+.light-mode .back_button{
+    border:none;
+    background: none;
+    color: #333;
+    cursor: pointer;
+
+}
+
+.toggle-btn {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 /*RIGHT CONTAINER */
 .right_container{
     width: 100%;
@@ -75,6 +151,15 @@ body{
     color: lightgray;
     font-size: 18px;
     padding: 10px;
+}
+
+.text_container ul li{
+    
+    /* make bigger somehow
+    list-style-image: url(media/circle-check-solid.svg);*/
+    list-style: '↪   ';
+    padding: 0; /* Remove padding */
+    margin: 10px 0;
 }
 
 .languages, .skills{
@@ -215,4 +300,27 @@ a{
     text-align: center;
     font-size: 15px;
     padding: 10px;
+}
+
+
+/* CONTACT FORM wip */
+
+.back_button{
+    border:none;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+textarea{
+
+}
+
+input{
+
+}
+
+.submit_button{
+
 }
