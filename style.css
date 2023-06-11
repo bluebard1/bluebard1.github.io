@@ -40,8 +40,12 @@ body{
         line-height: 30px;
     }
 
-    button.download_resume{
+    .download-btn{
         display:none;
+    }
+
+    .toggle-btn{
+        display: none;
     }
 
   }
@@ -111,16 +115,13 @@ body{
 
 }
 
-.toggle-btn {
-    display: inline-block;
-    margin-left: 20px;
-    background-color: #222;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.light-mode .tech_container li{
+    color:#0082fc;
+    border: 2px solid #0082fc;
 }
+/*LIGHT MODE END */
+
+
 
 /*RIGHT CONTAINER */
 .right_container{
@@ -132,19 +133,20 @@ body{
     font-weight: 600;
     padding: 15px;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .inner_container{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 5px solid #212428; 
+    border: 5px solid #212428;
+     
 }
 
 .container_content{
     padding: 10px;
     color: lightgray;
-    
 }
 
 .text_container{
@@ -160,6 +162,19 @@ body{
     list-style: '↪   ';
     padding: 0; /* Remove padding */
     margin: 10px 0;
+}
+
+
+.tech_container li{
+    list-style: none;
+    float: Left;
+
+    color: #0dcaf0;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid #0dcaf0;
+    border-radius: 5px;
+    
 }
 
 .languages, .skills{
@@ -222,7 +237,9 @@ body{
     border: 0.5px solid #606060;
 }
 
-
+iframe, video{
+    border-radius: 10px;
+}
 
 .tab_link{
 
@@ -253,6 +270,7 @@ body{
 .contact_container ul{
     margin: 0;
     padding: 0;
+    /*display: flex;*/
 }
 
 a{
@@ -279,7 +297,7 @@ a{
     font-weight: 600;
 }
 
-.download_resume{
+.download-btn{
     width: 50%;
     font-family: 'Ubuntu', 'sans-serif';
     text-align: center;
@@ -292,6 +310,18 @@ a{
     font-weight: 600;
     border: 0.5px solid #606060;
 
+}
+
+.toggle-btn {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #222;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 
@@ -324,3 +354,4 @@ input{
 .submit_button{
 
 }
+
