@@ -1,0 +1,52 @@
+img{
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+body{
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 600px;
+}
+
+/* Contact */
+.contact_form{
+    margin: 0 auto; 
+    width: 85%; 
+}
+/* AC Chart */
+.signal-shapes{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.AC-Chart{
+    margin-top: 100px;
+    max-width: 500px;
+}
+.signal-attributes{
+    margin:20px;
+    max-width: 600px;
+    width: 85%;
+}
+.attributes{
+
+}
+
+/* Container */
+iframe{
+    width: 100%;
+    max-width: 900px;
+    max-height: 300px;
+    height: 300px;
+}
+
+
+
+.separator{
+    width: 100%; 
+    height: 50px; 
+    border-top: 2px solid black;
+}
